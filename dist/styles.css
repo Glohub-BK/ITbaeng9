@@ -34,3 +34,6 @@
 @media(max-width:640px){
   .hero-visual{width:100vw;margin-left:calc(50% - 50vw)}
 }
+@media(max-width:640px){
+  .hero-visual img{left:0;transform:none;width:100%;height:220px;object-fit:cover;border-radius:18px}
+}
