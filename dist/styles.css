@@ -27,3 +27,7 @@
   .hero h1{font-size:clamp(3rem,12vw,4.8rem);letter-spacing:-.12em}
   .hero-visual{margin-top:150px}
 }
+@media(max-width:640px){
+  .hero-visual{display:block;overflow:visible}
+  .hero-visual img{position:absolute;left:50%;right:auto;transform:translateX(-50%);width:min(calc(100vw - 38px),340px);max-width:none;margin:0}
+}
