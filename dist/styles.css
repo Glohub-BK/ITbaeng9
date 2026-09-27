@@ -31,3 +31,6 @@
   .hero-visual{display:block;overflow:visible}
   .hero-visual img{position:absolute;left:50%;right:auto;transform:translateX(-50%);width:min(calc(100vw - 38px),340px);max-width:none;margin:0}
 }
+@media(max-width:640px){
+  .hero-visual{width:100vw;margin-left:calc(50% - 50vw)}
+}
